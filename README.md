@@ -1,136 +1,53 @@
-POPX React Assignment
+# POPX React Assignment
 
-Live Demo
+A pixel-perfect mobile UI implementation built with React, featuring multi-page routing, form validation, and simulated authentication.
 
-https://popx-assignment-karthik.netlify.app/
+## Live Demo
 
-GitHub Repository
+- Frontend: https://popx-assignment-karthik.netlify.app/
 
-https://github.com/karthiknani229-art/popx-assignment
+## Tech Stack
 
----
+**Frontend:** React.js, Vite, React Router DOM, CSS
 
- Overview
+**Deployment:** Netlify
 
-This project is a pixel-perfect implementation of the POPX mobile UI using React.
-It demonstrates frontend development fundamentals including routing, form handling, and component-based architecture.
+## Features
 
----
+- Pixel-perfect mobile UI centered on webpage
+- Multi-page routing — Welcome, Signup, Login, Account
+- Controlled forms with validation (required fields, email format, password min length)
+- Disabled submit buttons until all inputs are valid
+- Simulated authentication using localStorage
+- Protected Account page with logout functionality
+- Reusable InputField component
 
-Tech Stack
-
-* React (Vite)
-* React Router DOM
-* CSS (Custom Styling)
-
----
-
-Features
-
-UI & Layout
-
-* Pixel-perfect UI based on design
-* Mobile app interface centered on webpage
-* Clean and consistent styling
-
-Navigation
-
-* Multi-page routing using React Router
-* Smooth navigation between screens:
-
-  * Welcome
-  * Signup
-  * Login
-  * Account
-
-Forms & Validation
-
-* Controlled React forms
-* Required field validation
-* Email format validation
-* Password minimum length check (8 characters)
-* Disabled submit buttons until valid input
-
-uthentication (Simulated)
-
-* User data stored using localStorage
-* Login validation against stored data
-* Protected Account page
-* Logout functionality
-
-Code Quality
-
-* Reusable components (InputField)
-* Clean folder structure
-* Readable and maintainable code
-
----
-
- Project Structure
+## Project Structure
 
 ```
-src
- ├── components
- │    └── InputField.jsx
- │
- ├── pages
- │    ├── Welcome.jsx
- │    ├── Signup.jsx
- │    ├── Login.jsx
- │    └── Account.jsx
- │
- ├── styles
- │    └── global.css
- │
- ├── App.jsx
- └── main.jsx
+src/
+├── components/
+│   └── InputField.jsx
+├── pages/
+│   ├── Welcome.jsx
+│   ├── Signup.jsx
+│   ├── Login.jsx
+│   └── Account.jsx
+├── styles/
+│   └── global.css
+├── App.jsx
+└── main.jsx
 ```
 
----
+## Local Setup
 
-Installation & Setup
-
-Clone the repository:
-
-```
-git clone https://github.com/karthiknani229-art/popx-assignment
-```
-
-Navigate into the project:
-
-```
+```bash
+git clone https://github.com/karthiknani229-art/popx-assignment.git
 cd popx-assignment
-```
-
-Install dependencies:
-
-```
 npm install
-```
-
-Run the development server:
-
-```
 npm run dev
 ```
 
----
+## Author
 
-Deployment
-
-This project is deployed using Netlify.
-
----
-
- Notes
-
-* This project focuses on frontend implementation only.
-* Authentication is simulated using localStorage.
-* UI is designed to match the given design requirements.
-
----
-
-Author
-
-Penta Karthik
-GitHub:https://github.com/karthiknani229-art/popx-assignment
+Penta Karthik — [GitHub](https://github.com/karthiknani229-art)
